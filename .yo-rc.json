@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.19.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "spfx-cicd",
+    "libraryId": "2324d151-8349-4b28-98f6-a97eb6679c59",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "spfx-cicd",
+    "solutionShortDescription": "spfx-cicd description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
