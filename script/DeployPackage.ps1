@@ -17,5 +17,5 @@ $plainCred = New-Object system.management.automation.pscredential -ArgumentList 
  
 Connect-PnPOnline -Url $siteUrl -Credentials $plainCred
  
-$packagePath =  "./" + $env:dropPath + "/drop/sharepoint/solution/" + $env:packageName
+$packagePath =  "./" + $env:dropPath + "/drop/" + $env:packageName
 Add-PnPApp $packagePath -Scope Site -Overwrite -Publish
